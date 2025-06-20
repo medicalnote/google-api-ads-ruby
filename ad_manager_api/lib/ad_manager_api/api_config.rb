@@ -31,8 +31,8 @@ module AdManagerApi
     end
 
     # Set defaults
-    DEFAULT_VERSION = :v202405
-    LATEST_VERSION = :v202405
+    DEFAULT_VERSION = :v202505
+    LATEST_VERSION = :v202505
 
     # Set other constants
     API_NAME = 'AdManagerApi'
@@ -118,6 +118,25 @@ module AdManagerApi
                    :SegmentPopulationService, :SiteService,
                    :StreamActivityMonitorService, :SuggestedAdUnitService,
                    :TargetingPresetService, :TeamService, :UserService,
+                   :UserTeamAssociationService ,:YieldGroupService],
+        :v202505 => [:AdjustmentService, :AdRuleService, :AudienceSegmentService,
+                   :CompanyService, :CdnConfigurationService,
+                   :CmsMetadataService, :ContactService, :ContentBundleService,
+                   :ContentService, :CreativeService,
+                   :CreativeSetService, :CreativeTemplateService,
+                   :CreativeWrapperService, :CustomFieldService,
+                   :CustomTargetingService, :DaiAuthenticationKeyService,
+                   :DaiEncodingProfileService, :ForecastService,
+                   :InventoryService, :LabelService,
+                   :LineItemCreativeAssociationService, :LineItemService,
+                   :LineItemTemplateService, :LiveStreamEventService,
+                   :MobileApplicationService, :NativeStyleService,
+                   :NetworkService, :OrderService, :PlacementService,
+                   :ProposalLineItemService, :ProposalService,
+                   :PublisherQueryLanguageService, :ReportService,
+                   :SegmentPopulationService, :SiteService,
+                   :StreamActivityMonitorService, :SuggestedAdUnitService,
+                   :TargetingPresetService, :TeamService, :UserService,
                    :UserTeamAssociationService ,:YieldGroupService]
    }
 
@@ -129,6 +148,7 @@ module AdManagerApi
       :v202311 => 'https://ads.google.com/apis/ads/publisher/',
       :v202402 => 'https://ads.google.com/apis/ads/publisher/',
       :v202405 => 'https://ads.google.com/apis/ads/publisher/',
+      :v202505 => 'https://ads.google.com/apis/ads/publisher/',
     }
 
     public
